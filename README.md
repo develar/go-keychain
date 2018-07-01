@@ -5,7 +5,7 @@ A library for accessing the Keychain for macOS and iOS in Go (golang).
 Requires macOS 10.9 or greater and iOS 8 or greater.
 
 ```go
-import "github.com/keybase/go-keychain"
+import "github.com/develar/go-keychain"
 ```
 
 

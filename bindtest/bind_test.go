@@ -5,7 +5,7 @@ package bindtest
 import (
 	"testing"
 
-	"github.com/keybase/go-keychain/bind"
+	"github.com/develar/go-keychain/bind"
 )
 
 type test struct {

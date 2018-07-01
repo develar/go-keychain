@@ -83,12 +83,14 @@ var (
 		 kSecAttrService
 	*/
 	SecClassGenericPassword SecClass = 1
+	KSecClassKey            SecClass = 2
 )
 
 // SecClassKey is the key type for SecClass
 var SecClassKey = attrKey(C.CFTypeRef(C.kSecClass))
 var secClassTypeRef = map[SecClass]C.CFTypeRef{
 	SecClassGenericPassword: C.CFTypeRef(C.kSecClassGenericPassword),
+	KSecClassKey:            C.CFTypeRef(C.kSecClassKey),
 }
 
 var (
